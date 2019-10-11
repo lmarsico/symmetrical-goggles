@@ -22,7 +22,7 @@ const ctx = canvas.getContext("2d");
 
 /* constants */
 const BG_COLOR = "#2A3D45";
-const COLOR = "#C17C74";
+const COLOR = "#008F11";
 
 /* settings */
 const CIRCLE_LINE_WIDTH = 5;
@@ -85,6 +85,7 @@ for (let i = 0; i < POINTS_AMOUNT; i++) {
 /* loop */
 ctx.translate(canvas.width / 2, canvas.height / 2);
 const loop = () => {
+    
 	ctx.fillStyle = BG_COLOR;
 	ctx.fillRect(-canvas.width / 2, -canvas.height / 2, canvas.width, canvas.height);
 
